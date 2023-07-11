@@ -53,3 +53,10 @@ module.exports.private = async event => {
         ),
     };
 };
+//Neste código, temos duas funções exportadas: public e private, que representam rotas públicas e privadas, respectivamente.
+
+//A função public é uma rota pública que imprime uma mensagem de log indicando a solicitação da rota e retorna uma resposta com status 200 e um array JSON no corpo da resposta.
+
+//A função private é uma rota privada que imprime uma mensagem de log indicando a solicitação da rota, extrai os detalhes do usuário do objeto event (que contém o contexto da requisição) e retorna uma resposta com status 200 e um array JSON no corpo da resposta.
+
+//Espero que isso esclareça o código para você. Se você tiver mais perguntas, fique à vontade para perguntar.

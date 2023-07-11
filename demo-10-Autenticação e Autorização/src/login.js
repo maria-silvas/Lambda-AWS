@@ -54,12 +54,3 @@ const login = async event => {
 exports.handler = login;
 
 
-//Neste código, a função login é responsável por autenticar os usuários com base em um arquivo JSON de usuários (users.json).
-
-//A função extrai o nome de usuário e a senha do corpo da solicitação recebida.
-//Em seguida, ela valida as informações do usuário, comparando-as com os dados armazenados no arquivo users.json.
-//Se o usuário não for válido, a função retorna uma resposta com status 401 (não autorizado).
-//Se o usuário for válido, a função prepara os dados do usuário para assinar um token JWT.
-//Em seguida, ela gera um token JWT usando a chave JWT (JWT_KEY) e um tempo de expiração de 5 minutos.
-//Por fim, a função retorna uma resposta com status 200 e o token JWT no corpo da resposta.
-
